@@ -19,22 +19,22 @@ In the DP module, some machine learning algorithms use the above features to pre
 
 ## Requirements
 ### SQL-TSFE module
--python 3.7
--gensim 4.1.0
--jieba 0.42.1
--numpy 1.21.2
--pandas 0.3.1
--scikit-learn 0.24.2
+- python 3.7
+- gensim 4.1.0
+- jieba 0.42.1
+- numpy 1.21.2
+- pandas 0.3.1
+- scikit-learn 0.24.2
 
 ### SQL Parse
--python 3.7
--sqlparse 0.4.2
+- python 3.7
+- sqlparse 0.4.2
 
 ### Other
--python 2
--
--
--
+- python 2
+- 
+- 
+- 
 
 
 ## Data
