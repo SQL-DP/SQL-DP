@@ -1,0 +1,6 @@
+question_id,question_detail,difficulty,answer
+1,Query the names of all students and their year of birth.,0.214563107,select Sname 2021-Sage from Student
+2,Query the student information of "physics" College and "history" college.,0.392936803,"select * from student where dept_name in ('Physics','History')"
+3,Query the detailed records of all students.,0.163636364,select * from student
+4,Query the names and departments of all students.,0.48490566,"select sname, sdept from student"
+5,Query all student information of "geography" college with a secondary school score of no more than 50 (you can use set or condition query).,0.423048327,select * from student where dept_name = 'Geology' and tot_cred <= 50
