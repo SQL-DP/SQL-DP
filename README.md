@@ -15,20 +15,27 @@ The SQL-TSFE modul uses NLP technologies (e.g., Word2vec, TF-IDF) to extract tex
 
 And The SQL-CSFE module uses TBCNN model to extract the code structure feature from the answer of SQL programming problem.
 
-In the DP module, some machine learning algorithms use the above features to predict the difficulty of SQL programming problems.
+In the DP module, some machine learning algorithms use the above features to predict the difficulty of SQL programming problems. It is worth noting that we need to convert the SQL code into AST, and then serialize the AST before entering the TBCNN model. So we use the SQL parser **pglast** to get the AST of SQL.
 
 ## Requirements
-### In SQL-TSFE module
+### SQL-TSFE module
+-python 3.7
+-gensim 4.1.0
+-jieba 0.42.1
+-numpy 1.21.2
+-pandas 0.3.1
+-scikit-learn 0.24.2
 
+### SQL Parse
+-python 3.7
+-sqlparse 0.4.2
 
-### In SQL-CSFE module
+### Other
+-python 2
+-
+-
+-
 
-
-### In DP Module
-
-
-## 
 
 ## Data
-
-## Run
+Due to the problem of data privacy, we only give examples of data. For data samples, please check the **data** folder in the project.
