@@ -396,10 +396,10 @@ def do_evaluation():
 
 def main():
     apputil.initialize(variable_scope='tbcnn')
-    if hyper.evaluation:
-        do_evaluation()
-    else:
-        do_train()
+    # if hyper.evaluation:
+    #    do_evaluation()
+    # else:
+    do_train()
 
 
 if __name__ == '__main__':
