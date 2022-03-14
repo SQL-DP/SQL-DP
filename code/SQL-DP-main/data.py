@@ -18,7 +18,6 @@ class Node(object):
 
 
 #  choose python2 or python3
-#  call by load(filename=None, word2int=None)
 if six.PY2:
     class NodeUnpickler(pickle.Unpickler, object):
         def find_class(self, module, name):
