@@ -31,13 +31,21 @@ In the DP module, some machine learning algorithms use the above features to pre
 - sqlparse 0.4.2
 
 ### Other
-- python 2
-- 
-- 
-- 
-
+- python 2.7
+- tensorflow 1.0.0
+- tensorflow-fold 0.0.1
+- pytest 3.0.7
+- ddt 1.1.1
+- future 0.16.0
+- six 1.16.0
+- numpy 0.16.6
+- scikit-learn 0.20.4
+- pytest 3.0.7
+- ipdb 0.10.2
+- ipython 5.3.0
+- flake8 3.3.0
 
 ## Data
-Due to the problem of data privacy, we only give examples of data. For data samples, please check the **data** folder in the project.
+Due to the problem of data privacy, we only give examples of data. For data samples, please check the *data* folder in the project.
 
-Besides, the original code of the **TBCNN** model we use is [here](https://github.com/Aetf/tensorflow-tbcnn).
+Besides, the original code of the *TBCNN* model we use is [here](https://github.com/Aetf/tensorflow-tbcnn).
