@@ -28,7 +28,7 @@ In the DP module, some machine learning algorithms use the above features to pre
 
 ### SQL Parse
 - python 3.7
-- sqlparse 0.4.2
+- pglast 3.7
 
 ### Other
 - python 2.7
