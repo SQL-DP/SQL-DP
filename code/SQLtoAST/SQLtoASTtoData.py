@@ -102,13 +102,13 @@ if __name__ == '__main__':
     listStatementsMeta = {}
     
     # read SQL data from .xlsx
-    df = pd.read_excel("data/total_question.xlsx", usecols=["答案"])  # df is type DataFrame
+    df = pd.read_excel("data/question.xlsx", usecols=["answer"])  # df is type DataFrame
     df = df.replace({r'\s+$': '', r'^\s+': ''}, regex=True).replace(r'\n', ' ', regex=True)
     train_data = np.array(df)  # np.ndarray()
     sql_data = train_data.tolist()  # list
     
     # read difficulty from .xlsx
-    difficulty = pd.read_excel("data/total_question.xlsx",usecols=["答错率"])  
+    difficulty = pd.read_excel("data/question.xlsx",usecols=["difficulty"])  
     difficulty = np.array(difficulty)  # difficulty.dtype is float64
     difficulty = difficulty.tolist()          
     
